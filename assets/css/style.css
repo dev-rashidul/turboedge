@@ -1,0 +1,197 @@
+/* Base Style CSS Start */
+
+/* Fonts */
+
+/* Proxima Nova Font */
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../fonts/Proxima\ Nova\ Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../fonts/Proxima\ Nova\ Semibold.otf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../fonts/Proxima\ Nova\ Bold.otf);
+  font-weight: 700;
+}
+
+/* Zuume Font */
+
+@font-face {
+  font-family: "Zuume";
+  src: url(../fonts/Zuume\ Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Zuume";
+  src: url(../fonts/Zuume\ Bold.ttf);
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Proxima Nova", sans-serif;
+  color: #f7fbfa;
+  background: #010101;
+  scroll-behavior: smooth;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-family: Zuume;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+h3 {
+  font-family: Zuume;
+  font-size: 36.216px;
+  font-weight: 700;
+  line-height: 37.791px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+/* Base Style CSS End */
+
+/* Header Part CSS Start */
+
+/* Navigation Section CSS Start */
+
+.navigation-wrapper {
+  padding: 20px 60px;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.header-address h6,
+.header-contact h6 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.header-contact {
+  padding-right: 100px;
+}
+
+.contact-btn {
+  display: none;
+}
+
+.header-address p,
+.header-contact a,
+.contact-btn span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #f7fbfa;
+  margin-bottom: 0;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* Navigation Section CSS End */
+
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  padding: 110px 60px 0;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content,
+.hero-img {
+  width: 50%;
+}
+
+.hero-content h1 {
+  font-family: Zuume;
+  font-size: 79.241px;
+  font-weight: 600;
+  line-height: 84.524px;
+}
+
+.hero-img {
+  text-align: center;
+}
+
+/* Hero Section CSS End */
+
+/* Header Part CSS End */
+
+/* Main Part CSS Start  */
+
+/* What We Do Section CSS Start */
+
+.what-do-wrapper {
+  padding: 80px 60px 0;
+}
+
+.what-do-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.what-do-img,
+.what-do-content {
+  width: 50%;
+}
+
+.waht-do-texts {
+  max-width: 420px;
+}
+
+/* What We Do Section CSS End */
+
+/* Main Part CSS End  */

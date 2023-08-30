@@ -1,0 +1,162 @@
+/* Min Width 1201px and Max Width 1400px */
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .hero-content h1 {
+    font-size: 64px;
+    line-height: 70px;
+  }
+
+  .what-do-img {
+    margin-right: 100px;
+  }
+}
+
+/* Min Width 993px and Max Width 1200px */
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .hero-content h1 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+
+  .what-do-img {
+    margin-right: 100px;
+  }
+}
+
+/* Min Width 769px and Max Width 992px */
+
+@media (min-width: 769px) and (max-width: 992px) {
+  h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .header-contact {
+    padding-right: 50px;
+  }
+
+  .hero-content h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+
+  .what-do-img {
+    margin-right: 100px;
+  }
+}
+
+/* Min Width 300px and Max Width 767px */
+
+@media (min-width: 300px) and (max-width: 768px) {
+  h2 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+
+  .navigation-wrapper {
+    padding: 15px 20px;
+    overflow: hidden;
+  }
+
+  .header-contact {
+    padding-right: 0px;
+  }
+
+  .close-btn {
+    padding: 18px 16px 70px;
+    cursor: pointer;
+  }
+
+  .close-btn span {
+    font-size: 16px;
+    font-weight: 400;
+    float: right;
+    color: #010101;
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    max-width: 315px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-left: 16px;
+    background: #f7fbfa;
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+  }
+
+  .mobile-menu.active {
+    right: 0;
+  }
+
+  .header-address,
+  .header-contact {
+    display: none;
+  }
+
+  .mobile-menu .header-address,
+  .mobile-menu .header-contact {
+    display: block;
+  }
+
+  .mobile-menu .header-contact {
+    padding-top: 40px;
+  }
+
+  .header-address h6,
+  .header-contact h6,
+  .header-address p,
+  .header-contact a {
+    color: #010101;
+  }
+
+  .contact-btn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hero-content h1 {
+    font-size: 39px;
+    line-height: 41px;
+  }
+
+  .hero-wrapper {
+    padding: 40px 15px 0;
+  }
+
+  .hero-container {
+    flex-direction: column-reverse;
+  }
+
+  .hero-content {
+    padding-top: 50px;
+  }
+
+  .hero-img img {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .hero-content,
+  .hero-img,
+  .what-do-img,
+  .what-do-content {
+    width: 100%;
+  }
+
+  .what-do-wrapper {
+    padding: 80px 15px 0;
+  }
+
+  .what-do-container {
+    flex-direction: column;
+  }
+
+  .what-do-content {
+    padding-top: 30px;
+  }
+}
