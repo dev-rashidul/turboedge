@@ -6,6 +6,12 @@
 
 @font-face {
   font-family: "Proxima Nova";
+  src: url(../fonts/Proxima\ Nova\ Thin.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
   src: url(../fonts/Proxima\ Nova\ Regular.otf);
   font-weight: 400;
 }
@@ -34,6 +40,14 @@
   font-family: "Zuume";
   src: url(../fonts/Zuume\ Bold.ttf);
   font-weight: 700;
+}
+
+/* Neue Haas Grotesk Display Pro Font */
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url(../fonts/NeueHaasDisplayMediu.ttf);
+  font-weight: 600;
 }
 
 * {
@@ -194,5 +208,245 @@ p {
 }
 
 /* What We Do Section CSS End */
+
+/* Google Audits Section CSS Start */
+
+.google-audits-wrapper {
+  padding-top: 120px;
+}
+
+.google-audits-container {
+  max-width: 650px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.google-audits-content {
+  max-width: 420px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.google-audits-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 50px;
+}
+
+.audits-number h2 {
+  width: 80px;
+  margin: auto;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Neue Haas Grotesk Display Pro;
+  font-size: 36px;
+  font-weight: 600;
+  color: #bef9cf;
+  background: #243229;
+  border: 4.5px solid #09ce6b;
+  border-radius: 84.938px;
+}
+
+.google-audits-card h5 {
+  font-family: Neue Haas Grotesk Display Pro;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 15px;
+}
+
+/* Google Audits Section CSS End */
+
+/* Features Section CSS Start */
+
+.features-wrapper {
+  padding: 140px 60px 0;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 90px;
+}
+
+.features-card-content h3 {
+  padding-top: 20px;
+}
+
+/* Features Section CSS End */
+
+/* Benefits Section CSS Start */
+
+.benefits-wrapper {
+  padding: 200px 60px 0;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.benefits-content,
+.benefits-features {
+  width: 50%;
+}
+
+.benefits-content {
+  position: sticky;
+  top: 0;
+  padding-right: 60px;
+}
+
+.benefits-texts {
+  max-width: 690px;
+}
+
+.benefits-texts h1 {
+  font-family: Zuume;
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.benefits-card {
+  margin-bottom: 60px;
+}
+
+.benefits-card:last-child {
+  margin-bottom: 0px;
+}
+
+.benefits-card-content h4 {
+  font-family: Zuume;
+  font-size: 29px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.benefits-card-content p {
+  max-width: 300px;
+  padding-top: 10px;
+}
+
+/* Benefits Section CSS End */
+
+/* Gallery Section CSS Start */
+
+.gallery-wrapper {
+  padding: 80px 20px 0;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  align-items: end;
+}
+
+.gallery-img {
+  padding-bottom: 20px;
+}
+
+.gallery-img img {
+  width: 100%;
+}
+
+.gallery-img:last-child {
+  padding-bottom: 0px;
+}
+
+/* Gallery Section CSS End */
+
+/* Pricing Section CSS Start */
+
+.pricing-wrapper {
+  padding: 100px 150px;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.pricing-plan {
+  padding: 44px 24px;
+  border-radius: 4px;
+  border: 1px solid #555;
+}
+
+.popular-plan {
+  position: relative;
+  border: 2px solid #8ce8d2;
+}
+
+.popular-tag {
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.popular-tag span {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 18px;
+  color: #000;
+  background: #8ce8d2;
+  border-radius: 42px;
+}
+
+.pricing-plan-content h3 {
+  font-family: Zuume;
+  font-size: 39px;
+  font-weight: 700;
+}
+
+.pricing-plan-content p {
+  padding-top: 5px;
+}
+
+.pricing-plan-content h2 {
+  font-family: Zuume;
+  font-size: 62px;
+  font-weight: 700;
+  padding-top: 25px;
+}
+
+.pricing-features {
+  padding-top: 25px;
+}
+
+.pricing-features li {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 12px;
+}
+
+.pricing-features li img {
+  padding-right: 12px;
+}
+
+.pricing-btn a {
+  display: block;
+  font-family: Zuume;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  color: #010101;
+  background: #f7fbfa;
+  border-radius: 4px;
+}
+
+/* Pricing Section CSS End */
 
 /* Main Part CSS End  */

@@ -9,6 +9,15 @@
   .what-do-img {
     margin-right: 100px;
   }
+
+  .benefits-texts h1 {
+    font-size: 56px;
+    line-height: 65px;
+  }
+
+  .pricing-wrapper {
+    padding: 100px;
+  }
 }
 
 /* Min Width 993px and Max Width 1200px */
@@ -21,6 +30,19 @@
 
   .what-do-img {
     margin-right: 100px;
+  }
+
+  .benefits-texts h1 {
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  .pricing-wrapper {
+    padding: 100px 50px;
+  }
+
+  .pricing-plan-content h2 {
+    font-size: 56px;
   }
 }
 
@@ -44,6 +66,23 @@
   .what-do-img {
     margin-right: 100px;
   }
+
+  .benefits-texts h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .pricing-wrapper {
+    padding: 100px 50px;
+  }
+
+  .pricing-plan-content h2 {
+    font-size: 48px;
+  }
+
+  .pricing-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
@@ -66,6 +105,7 @@
   .close-btn {
     padding: 18px 16px 70px;
     cursor: pointer;
+    display: none;
   }
 
   .close-btn span {
@@ -78,19 +118,23 @@
   .mobile-menu {
     position: absolute;
     top: 0;
-    right: 100%;
-    max-width: 315px;
-    width: 100%;
+    right: 0;
+    width: 0;
     height: 100%;
     display: block;
-    padding-left: 16px;
+    /* padding-left: 16px; */
     background: #f7fbfa;
     transition: all 0.3s ease-in-out;
     z-index: 999;
   }
 
   .mobile-menu.active {
-    right: 0;
+    width: 315px;
+    padding-left: 15px;
+  }
+
+  .mobile-menu.active .close-btn {
+    display: block;
   }
 
   .header-address,
@@ -98,8 +142,8 @@
     display: none;
   }
 
-  .mobile-menu .header-address,
-  .mobile-menu .header-contact {
+  .mobile-menu.active .header-address,
+  .mobile-menu.active .header-contact {
     display: block;
   }
 
@@ -158,5 +202,90 @@
 
   .what-do-content {
     padding-top: 30px;
+  }
+
+  .google-audits-wrapper {
+    padding: 80px 15px 0;
+  }
+
+  .google-audits-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .google-audits-content {
+    padding-top: 40px;
+  }
+
+  .google-audits-cards {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
+    gap: 40px;
+  }
+
+  .audits-number h2 {
+    font-size: 26px;
+  }
+
+  .google-audits-card h5 {
+    font-size: 16px;
+  }
+
+  .features-wrapper {
+    padding: 100px 15px 0;
+  }
+
+  .features-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .features-card-content h3 {
+    font-size: 24px;
+  }
+
+  .benefits-wrapper {
+    padding: 80px 15px 0;
+  }
+
+  .benefits-container {
+    flex-direction: column;
+  }
+
+  .benefits-content,
+  .benefits-features {
+    width: 100%;
+  }
+
+  .benefits-content {
+    position: initial;
+    padding-right: 0;
+    padding-bottom: 40px;
+  }
+
+  .benefits-texts h1 {
+    font-size: 32px;
+    line-height: 55px;
+  }
+
+  .benefits-card {
+    margin-bottom: 30px;
+  }
+
+  .benefits-card-content h4 {
+    font-size: 24px;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricing-wrapper {
+    padding: 80px 15px;
+  }
+
+  .pricing-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
   }
 }
