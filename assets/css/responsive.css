@@ -208,6 +208,7 @@
   .google-audits-container {
     display: flex;
     flex-direction: column-reverse;
+    align-items: self-start;
   }
 
   .google-audits-content {
@@ -219,10 +220,8 @@
   .google-audits-cards {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
-    column-gap: 0;
+    column-gap: 40px;
     justify-items: center;
-    padding-right: 35px;
-    margin-left: -33px;
   }
 
   .audits-number h2 {
