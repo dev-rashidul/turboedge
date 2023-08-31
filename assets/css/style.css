@@ -210,8 +210,12 @@ p {
   width: 50%;
 }
 
+.what-do-content {
+  padding-left: 50px;
+}
+
 .what-do-img img {
-  width: 72%;
+  width: 75%;
 }
 
 .waht-do-texts {
