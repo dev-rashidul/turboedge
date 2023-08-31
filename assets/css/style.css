@@ -182,6 +182,11 @@ p {
   text-align: center;
 }
 
+.hero-img img {
+  max-width: 312px;
+  max-height: 385px;
+}
+
 /* Hero Section CSS End */
 
 /* Header Part CSS End */
