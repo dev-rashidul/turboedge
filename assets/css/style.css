@@ -87,6 +87,7 @@ h2 {
   font-size: 46px;
   font-weight: 600;
   line-height: 48px;
+  -webkit-font-smoothing: antialiased;
 }
 
 h3 {
@@ -94,6 +95,7 @@ h3 {
   font-size: 36.216px;
   font-weight: 700;
   line-height: 37.791px;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -203,6 +205,10 @@ p {
   width: 50%;
 }
 
+.what-do-img img {
+  width: 75%;
+}
+
 .waht-do-texts {
   max-width: 420px;
 }
@@ -216,7 +222,7 @@ p {
 }
 
 .google-audits-container {
-  max-width: 650px;
+  max-width: 745px;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -229,16 +235,21 @@ p {
   text-align: center;
 }
 
+.google-audits-content h2 span {
+  color: #bef9cf;
+}
+
 .google-audits-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding-top: 50px;
+  gap: 80px;
 }
 
 .audits-number h2 {
-  width: 80px;
+  width: 87px;
   margin: auto;
-  height: 80px;
+  height: 87px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,6 +284,11 @@ p {
   gap: 90px;
 }
 
+.features-card-content {
+  max-width: 370px;
+  width: 100%;
+}
+
 .features-card-content h3 {
   padding-top: 20px;
 }
@@ -298,8 +314,8 @@ p {
 
 .benefits-content {
   position: sticky;
-  top: 0;
-  padding-right: 60px;
+  top: 20px;
+  padding-right: 35px;
 }
 
 .benefits-texts {
@@ -308,9 +324,10 @@ p {
 
 .benefits-texts h1 {
   font-family: Zuume;
-  font-size: 68px;
+  font-size: 65px;
   font-weight: 600;
   line-height: 72px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .benefits-card {
@@ -326,10 +343,11 @@ p {
   font-size: 29px;
   font-weight: 700;
   padding-top: 20px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .benefits-card-content p {
-  max-width: 300px;
+  max-width: 335px;
   padding-top: 10px;
 }
 
@@ -338,26 +356,12 @@ p {
 /* Gallery Section CSS Start */
 
 .gallery-wrapper {
-  padding: 80px 20px 0;
-}
-
-.gallery-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-  align-items: end;
-}
-
-.gallery-img {
-  padding-bottom: 20px;
+  padding: 80px 0 0;
+  overflow: hidden;
 }
 
 .gallery-img img {
   width: 100%;
-}
-
-.gallery-img:last-child {
-  padding-bottom: 0px;
 }
 
 /* Gallery Section CSS End */
@@ -440,7 +444,7 @@ p {
   font-size: 28px;
   font-weight: 700;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   margin-top: 40px;
   color: #010101;
   background: #f7fbfa;

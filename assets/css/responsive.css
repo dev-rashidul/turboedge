@@ -122,7 +122,6 @@
     width: 0;
     height: 100%;
     display: block;
-    /* padding-left: 16px; */
     background: #f7fbfa;
     transition: all 0.3s ease-in-out;
     z-index: 999;
@@ -185,6 +184,11 @@
     margin: auto;
   }
 
+  .hero-img img {
+    max-width: 220px;
+    max-height: 273px;
+  }
+
   .hero-content,
   .hero-img,
   .what-do-img,
@@ -204,8 +208,12 @@
     padding-top: 30px;
   }
 
+  .what-do-img img {
+    width: 100%;
+  }
+
   .google-audits-wrapper {
-    padding: 80px 15px 0;
+    padding: 30px 15px 0;
   }
 
   .google-audits-container {
@@ -219,11 +227,16 @@
 
   .google-audits-cards {
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 50px;
-    gap: 40px;
+    row-gap: 40px;
+    column-gap: 0;
+    justify-items: center;
+    padding-right: 35px;
+    margin-left: -33px;
   }
 
   .audits-number h2 {
+    width: 64px;
+    height: 64px;
     font-size: 26px;
   }
 
@@ -238,6 +251,14 @@
   .features-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
+  }
+
+  .features-card-icon img {
+    width: 14%;
+  }
+
+  .features-card-icon.mobile-icon img {
+    width: 10%;
   }
 
   .features-card-content h3 {
@@ -263,9 +284,10 @@
     padding-bottom: 40px;
   }
 
-  .benefits-texts h1 {
+  .benefits-texts h1,
+  .pricing-plan-content h3 {
     font-size: 32px;
-    line-height: 55px;
+    line-height: 34px;
   }
 
   .benefits-card {
@@ -276,8 +298,18 @@
     font-size: 24px;
   }
 
-  .gallery-container {
-    grid-template-columns: repeat(2, 1fr);
+  .benefits-card-icon img {
+    width: 32px;
+  }
+
+  .benefits-card-content p {
+    font-size: 16px;
+  }
+
+  .gallery-img img {
+    max-width: 400%;
+    width: 400%;
+    margin-left: -100px;
   }
 
   .pricing-wrapper {
