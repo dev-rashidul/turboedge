@@ -211,7 +211,7 @@ p {
 }
 
 .what-do-img img {
-  width: 75%;
+  width: 72%;
 }
 
 .waht-do-texts {
@@ -335,6 +335,15 @@ p {
   -webkit-font-smoothing: antialiased;
 }
 
+.benefits-texts p {
+  max-width: 615px;
+  width: 100%;
+}
+
+.benefits-features {
+  padding-left: 50px;
+}
+
 .benefits-card {
   margin-bottom: 60px;
 }
@@ -424,7 +433,8 @@ p {
   font-family: Zuume;
   font-size: 62px;
   font-weight: 700;
-  padding-top: 25px;
+  line-height: 0;
+  padding: 50px 0 25px;
 }
 
 .pricing-features {
