@@ -310,7 +310,8 @@
   .gallery-img img {
     max-width: 400%;
     width: 400%;
-    margin-left: -100px;
+    margin-left: -125px;
+    margin-bottom: -90px;
   }
 
   .pricing-wrapper {
