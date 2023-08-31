@@ -320,7 +320,6 @@ p {
 .benefits-content {
   position: sticky;
   top: 20px;
-  padding-right: 35px;
 }
 
 .benefits-texts {
@@ -329,7 +328,7 @@ p {
 
 .benefits-texts h1 {
   font-family: Zuume;
-  font-size: 65px;
+  font-size: 68px;
   font-weight: 600;
   line-height: 72px;
   -webkit-font-smoothing: antialiased;
