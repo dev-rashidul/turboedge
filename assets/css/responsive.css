@@ -163,10 +163,6 @@
     flex-direction: column-reverse;
   }
 
-  .what-do-content {
-    padding-left: 0;
-  }
-
   .hero-content {
     padding-top: 50px;
   }
@@ -198,6 +194,7 @@
 
   .what-do-content {
     padding-top: 30px;
+    padding-left: 0;
   }
 
   .what-do-img img {
